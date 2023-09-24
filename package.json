@@ -1,0 +1,18 @@
+{
+	"name": "node.js_learning",
+	"version": "1.0.0",
+	"description": "This repository is for learning node.js",
+	"main": "app.js",
+	"dependencies": {
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	},
+	"scripts": {
+		"start": "npm app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "Rashid Ameer",
+	"license": "ISC"
+}

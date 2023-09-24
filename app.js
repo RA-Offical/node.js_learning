@@ -1,9 +1,10 @@
-const amount = 12;
+const _ = require("lodash");
 
-if (amount < 10) {
-	console.log("Small Number");
-} else {
-	console.log("Large Number");
-}
+const array = [1, [2, [3, [4]]]];
 
-console.log("It's my first node app");
+const newFlatArray = array.flatMap((value) => value);
+
+const newLodAshFlatArray = _.flattenDeep(array);
+console.log(newLodAshFlatArray);
+
+console.log("Hello People");
